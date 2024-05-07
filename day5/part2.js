@@ -1,8 +1,6 @@
 import fs from "fs"
 
 const input = fs.readFileSync("./data.txt", "utf8").split('\n')
-const input2 = "xxyxx"
-
 let niceString = 0
 
 input.forEach((line) => {
