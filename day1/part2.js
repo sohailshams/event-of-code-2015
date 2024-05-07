@@ -14,19 +14,6 @@ function findFloor(data) {
             return
         }
     });
-
-    // for (let i = 0; i <= FloorsArray.length; i++) {
-    //     if (initialFloor !== -1) {
-    //         // console.log('floor', floor, ind)
-    //         FloorsArray[i] == "(" ? initialFloor++ : initialFloor--
-    //         position = i + 1
-
-    //     } else {
-    //         break
-    //     }
-
-    // }
-
     return position + 1
 }
 
